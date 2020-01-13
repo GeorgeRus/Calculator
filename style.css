@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, yellow, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(225, 227, 225);
+}
+
+.output{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.second-operand{
+    height: 40px;
+    font-size: 1rem;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.first-operand{
+    height: 80px;
+    padding: 0.6rem;
+    padding-top: 40px;
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+.second-operand{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    color: black;
+}
+
+.calc-buttons{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+button{
+    width: 73px;
+    margin-top: 2px;
+    background-color: rgb(171, 201, 219);
+    border: none;
+}
+
+.double{
+    width: 149px;
+}
+
+button:hover{
+    background-color: rgb(143, 180, 201);
+    border: none;
+    border: 1px solid grey;
+}
+
+button:nth-child(1){
+    margin-top: unset;
+}
+
+button:nth-child(2){
+    margin-top: unset;
+}
+
+button:nth-child(3){
+    margin-top: unset;
+}
+
+
